@@ -58,9 +58,18 @@
         white-space: wrap;
         overflow: visible;
         text-overflow: ellipsis;
+        max-width: 200px;
     }
 
     .events{
-        margin: 10px 0px 0px 0px;
+        margin: 5px 0px 0px 0px;
+        padding: 5px;
+    }
+
+    .events ul li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0px;
     }
   }
