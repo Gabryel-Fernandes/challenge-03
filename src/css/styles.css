@@ -1,41 +1,38 @@
 @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
 img {
   max-width: 100%;
 }
 
 body {
-  background-color:#030f1a;
-  font-family: "Kumbh Sans", sans-serif;  
-  text-align: center;    
+  background-color: #030f1a;
+  font-family: "Kumbh Sans", sans-serif;
+  text-align: center;
   padding-bottom: 100px;
 }
 
 main {
-  display: flex;  
+  display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 50px 0 0;      
+  padding: 50px 0 0;
 }
 
-.devicon-github-original{
+.devicon-github-original {
   font-size: 60px;
   margin-bottom: 30px;
   color: #FFFFFF;
 }
 
-.section{
+.section {
   padding: 70px 0;
 }
 
 .container {
-  width: 70%; /* se for uma tela menor que 980px vai se adaptar a 70% */
-  max-width: 960px; /* quando chegar em 980px para de aumentar */
+  width: 70%;
+  /* se for uma tela menor que 980px vai se adaptar a 70% */
+  max-width: 960px;
+  /* quando chegar em 980px para de aumentar */
   box-shadow: rgba(0, 0, 0, 0.3) 0px 25px 50px -12px;
   background-color: #fff;
   display: flex;
@@ -73,7 +70,7 @@ main {
   font-size: 17px;
   margin: 20px auto 0;
   padding: 10px;
-  border-radius: 7px;  
+  border-radius: 7px;
   cursor: pointer;
   border: 1px solid grey;
 }
@@ -84,139 +81,98 @@ main {
   border-color: #ffffff;
 }
 
-.container .profile-data{
+.container .profile-data {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 10px;  
+  padding: 10px;
 }
 
 .container .profile-data .info {
-  display: flex;  
+  display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.container .profile-data .info .data{
+.container .profile-data .info .data {
   padding: 40px;
   width: 50%;
 }
 
-.container .profile-data .info .profile-image{
+.container .profile-data .info .profile-image {
   width: 50%;
   border-radius: 50%;
   border: 10px solid hotpink;
 }
 
-.container .profile-data .info h1{
+.container .profile-data .info h1 {
   font-size: 20px;
   margin-bottom: 20px;
   font-weight: 700;
 }
 
-.container .profile-data .info p{
-  font-size: 15px;  
+.container .profile-data .info p {
+  font-size: 15px;
   font-weight: 400;
   line-height: 23px;
 }
 
-.container-social{
+.container-social {
   display: flex;
   justify-content: space-around;
 }
 
-.social-block{
+.social-block {
   display: flex;
   align-items: center;
 }
 
-.social-block img{
+.social-block img {
   width: 30px;
 }
 
 /* REPOSITORIES */
 
-.container .profile-data .repositories h2{
+.container .profile-data .repositories h2 {
   margin-bottom: 30px;
   text-align: center;
 }
 
-.container .profile-data .repositories ul{
+.container .profile-data .repositories ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.container .profile-data .repositories .repository{
+.container .profile-data .repositories .repository {
   padding: 20px;
-  border: 1px solid grey;  
+  border: 1px solid grey;
   margin: 20px;
   display: block;
   border-radius: 7px;
   transition: 0.3s ease-in-out;
 }
 
-.container .profile-data .repositories .repository .repository-data{
+.container .profile-data .repositories .repository .repository-data {
   display: flex;
   justify-content: center;
   margin: 10px;
 }
 
-.container .profile-data .repositories ul li a:hover{
-  background-color:hotpink;
+.container .profile-data .repositories ul li a:hover {
+  background-color: hotpink;
   color: #fff
 }
 
-.container .profile-data.hide{
+.container .profile-data.hide {
   display: none;
 }
 
-@media (max-width: 1280px) {
-  .container {
-    flex-direction: column;
-    width: 90%;
-    border-radius: 20px;
-  }
-
-  .container header {
-    width: 100%;
-  }
-
-  .container header h1 {
-    font-size: 24px;
-    text-align: center;
-  }
-}
-
-@media (max-width: 768px) {
-  .container header #input-search,
-  .container header #btn-search
-  {
-    width: 100%;
-  }
-}
-
-@media (max-width: 425px) {
-  main {
-    padding: 15% 0;    
-  }
-
-  .container .profile-data .info img{
-    margin-bottom: 20px;
-  }
-
-  .container .profile-data .info img,
-  .container .profile-data .info .data
-  {
-    width: 100%;
-    padding: 0;
-  }
-}
 
 
 /*------------Events---------*/
 
-.events{
+.events {
   border: 1px solid #000;
   border-radius: 15px;
   padding: 20px;
@@ -224,27 +180,25 @@ main {
   background-color: #e2e2e2;
 }
 
-.events h1{
+.events h1 {
   margin-bottom: 15px;
 }
 
-.events ul li{
+.events ul li {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 10px;
 }
 
-.events strong{
+.events strong {
   margin: 0px 20px 0px 0px;
 }
 
 .limited-text {
   margin: 0;
-  white-space: nowrap; 
-  overflow: hidden;   
-  text-overflow: ellipsis; 
-  max-width: 400px;    
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 400px;
 }
-
-

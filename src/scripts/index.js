@@ -28,7 +28,6 @@ async function events(userName) {
 }
 
 
-console.log(await repos("Gabryel-Fernandes"));
 function getUserProfile(userName) {
 
     user(userName).then(userData => {
