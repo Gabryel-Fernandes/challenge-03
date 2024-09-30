@@ -52,7 +52,7 @@
   }
   
 
-  @media (max-width: 628px) {
+  @media (max-width: 768px) {
     .limited-text{
         margin: 10px;
         white-space: wrap;
